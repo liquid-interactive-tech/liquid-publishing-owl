@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1062
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{14113C10-2F28-4A9F-95D1-5785BCF76CF8}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		NuGet.config = NuGet.config
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{351855F4-A852-494F-91AB-F329E77C650E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishingActivityOwl", "PublishingActivityOwl", "{CA3A34EF-03EF-46F4-A9C9-52E19205618D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Liquid.Foundation.PublishingActivityOwl", "src\Foundation\PublishingActivityOwl\code\Liquid.Foundation.PublishingActivityOwl.csproj", "{02A8635A-741E-4229-A7CB-76EDD4392314}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02A8635A-741E-4229-A7CB-76EDD4392314}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02A8635A-741E-4229-A7CB-76EDD4392314}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02A8635A-741E-4229-A7CB-76EDD4392314}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02A8635A-741E-4229-A7CB-76EDD4392314}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CA3A34EF-03EF-46F4-A9C9-52E19205618D} = {351855F4-A852-494F-91AB-F329E77C650E}
+		{02A8635A-741E-4229-A7CB-76EDD4392314} = {CA3A34EF-03EF-46F4-A9C9-52E19205618D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C18DC7F6-6F9A-43C0-9E67-CF9F9E8C8FD1}
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8;packages\EnterpriseLibrary.TransientFaultHandling.Caching.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Data.6.0.1304.1\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.ServiceBus.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.WindowsAzure.Storage.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Configuration.6.0.1304.0\lib\NET45
+	EndGlobalSection
+EndGlobal

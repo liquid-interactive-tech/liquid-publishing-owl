@@ -1,0 +1,25 @@
+---
+ID: "3b07c8c8-fdab-4c7b-920d-e3fc29c2c96f"
+Parent: "42f76b0c-f307-4ee2-a5fa-bfe9fdd4dbe9"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Modules/PublishingActivityOwl/Publish Activity Item/Publish Activity Item
+DB: master
+Created: 20200617T180840Z
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200617T180840Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6437afec-3388-43d1-8b00-03fad2d55a0f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20200619T150049Z

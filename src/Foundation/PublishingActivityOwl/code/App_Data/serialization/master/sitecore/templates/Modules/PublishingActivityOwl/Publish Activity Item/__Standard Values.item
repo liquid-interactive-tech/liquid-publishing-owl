@@ -1,0 +1,44 @@
+---
+ID: "2ee6a205-6bda-4ccc-bb9a-46d67b0e98a3"
+Parent: "42f76b0c-f307-4ee2-a5fa-bfe9fdd4dbe9"
+Template: "42f76b0c-f307-4ee2-a5fa-bfe9fdd4dbe9"
+Path: /sitecore/templates/Modules/PublishingActivityOwl/Publish Activity Item/__Standard Values
+DB: master
+Created: 20200617T180915Z
+SharedFields:
+- ID: "c9283d9e-7c29-4419-9c28-5a5c8ff53e84"
+  Hint: __Bucketable
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "16c27364-1575-4caa-a1d0-8ec4fa56b8a1"
+      Hint: Publish Date
+      Value: $now
+    - ID: "16ccda2f-f06e-440c-84f5-eb90617b53e3"
+      Hint: Updated Items
+      Value: 
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200617T180915Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cfd2b1c9-46af-4d2a-8ad0-456ad848405d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20200618T053359Z

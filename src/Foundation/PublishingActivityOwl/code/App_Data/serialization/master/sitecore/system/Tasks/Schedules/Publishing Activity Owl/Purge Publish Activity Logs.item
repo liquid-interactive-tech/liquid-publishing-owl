@@ -1,0 +1,46 @@
+---
+ID: "8a1c03cb-1b6d-438a-9c8e-549841cfe442"
+Parent: "59e26c3c-cac9-4329-a2ff-6b1f89ad688b"
+Template: "70244923-fa84-477c-8cbd-62f39642c42b"
+Path: /sitecore/system/Tasks/Schedules/Publishing Activity Owl/Purge Publish Activity Logs
+DB: master
+Created: 20200623T151251Z
+SharedFields:
+- ID: "50be51f8-746d-4dc2-9c3b-b14abc5ce9b7"
+  Hint: Schedule
+  Value: "20200101|99990101|127|24:00:00"
+- ID: "62e64dbb-0a39-4dd7-ba05-7bd08c5404e0"
+  Hint: Command
+  Value: "{E549D589-9DE4-4047-BA99-2EDD1551ED65}"
+- ID: "70893ef5-98e6-4721-844a-c364d0d9e48e"
+  Hint: Items
+  Value: "/sitecore/system/Settings/Publishing Activity Owl/Published Items//*[@@templateid='{42F76B0C-F307-4EE2-A5FA-BFE9FDD4DBE9}']"
+- ID: "b1e16562-f3f9-4ddd-84ca-6e099950ecc0"
+  Hint: Last run
+  Value: 20200623T182034Z
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200623T151251Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7dfb482d-ce2e-45c0-8c0a-f0d679ed5068"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20200623T182034Z

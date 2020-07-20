@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<xamlControls
+  xmlns:x="http://www.sitecore.net/xaml"
+  xmlns:ajax="http://www.sitecore.net/ajax"
+  xmlns:rest="http://www.sitecore.net/rest"
+  xmlns:r="http://www.sitecore.net/renderings"
+  xmlns:xmlcontrol="http://www.sitecore.net/xmlcontrols"
+  xmlns:p="http://schemas.sitecore.net/Visual-Studio-Intellisense"
+  xmlns:asp="http://www.sitecore.net/microsoft/webcontrols"
+  xmlns:html="http://www.sitecore.net/microsoft/htmlcontrols"
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+  <Liquid.Foundation.PublishingActivityOwl.Commands.ViewActivityDetails x:inherits="Liquid.Foundation.PublishingActivityOwl.Applications.ActivityDetail, Liquid.Foundation.PublishingActivityOwl">
+
+    <Sitecore.Controls.DialogPage Header="Publishing Log" Text="View items modified for this transaction." runat="server">
+      <AjaxScriptManager runat="server"/>
+      <ContinuationManager runat="server" />
+
+      <GridPanel Class="scFormTable" Columns="2" runat="server">
+
+        <Literal Text="Created Items:" runat="server" />
+        <asp:TextBox ID="CreatedItems" runat="server" readonly="true" rows="5" textmode="multiline" Width="100%" GridPanel.Width="100%"/>
+
+        <Literal Text="Updated Items:" runat="server" />
+        <asp:TextBox ID="UpdatedItems" runat="server" readonly="true" rows="5" textmode="multiline" Width="100%" GridPanel.Width="100%"/>
+
+        <Literal Text="Deleted Items:" runat="server" />
+        <asp:TextBox ID="DeletedItems" runat="server" readonly="true" rows="5" textmode="Multiline" Width="100%" GridPanel.Width="100%"/>
+
+      </GridPanel>
+
+    </Sitecore.Controls.DialogPage>
+
+  </Liquid.Foundation.PublishingActivityOwl.Commands.ViewActivityDetails>
+
+</xamlControls>

@@ -1,3 +1,8 @@
+# ** PROJECT IS INACTIVE **
+Liquid Interactive does not have any plans to continune to maintain this project at this time. We encourage the usage and exploration of existing and future Github Forks of this project to continue its development moving forward. 
+
+Need a custom Sitecore module and/or Website to be professionally architected/designed/developed? Drop us your request at [hello@liquidint.com](mailto:hello@liquidint.com)!
+
 # Liquid Publishing Owl
 
 Tracking your updates and fixes can prove challenging during a website build or maintenance task. **Liquid Publishing Owl** is a Sitecore plug-in that provides detailed insight into the specifics of how and where each publishing effort affects your website application.
